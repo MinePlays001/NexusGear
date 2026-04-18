@@ -21,7 +21,7 @@ const ORDERS_KEY = 'gm_orders'
 const PENDING_ORDERS_KEY = 'gm_pending_orders'
 
 // JAZZCASH PAYMENT DETAILS
-export const JAZZCASH_NUMBER = localStorage.getItem('pg_jazzcash_number') || '03126905303'
+export const JAZZCASH_NUMBER = localStorage.getItem('pg_jazzcash_number') || '03238581603'
 export const JAZZCASH_NAME = localStorage.getItem('pg_jazzcash_name') || 'Shamim Akhtar'
 
 // Get all orders
