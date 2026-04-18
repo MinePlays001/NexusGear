@@ -138,19 +138,19 @@ export default function JazzCashCheckout({ product, onClose }: JazzCashCheckoutP
             )}
 
             <div>
-              <label className="block text-gray-300 text-sm font-medium mb-2">
-                JazzCash Transaction ID *
-              </label>
-              <input
-                type="text"
-                value={transactionId}
-                onChange={(e) => setTransactionId(e.target.value)}
-                placeholder="e.g., JC1234567890"
-                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-              <p className="text-gray-400 text-xs mt-1">
-                Find this in your JazzCash app transaction history
-              </p>
+             <label className="block text-gray-300 text-sm font-medium mb-2">
+  Phone Number You Sent From *
+</label>
+<input
+  type="tel"
+  value={transactionId}
+  onChange={(e) => setTransactionId(e.target.value)}
+  placeholder="e.g., 03001234567"
+  className="w-full px-4 py-3 bg-gray-800 border border-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+/>
+<p className="text-gray-400 text-xs mt-1">
+  Enter the EasyPaisa or JazzCash number you sent money from
+</p>
             </div>
 
             <div className="flex gap-3">
